@@ -4,6 +4,7 @@ languageCode = "en-US"
 title = "Patrick Presto - Thesis 2018"
 theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+publishDir = "docs"
 
 
 [params]
