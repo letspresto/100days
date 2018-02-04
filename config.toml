@@ -1,0 +1,65 @@
+# Site settings
+baseURL = "https://example.org/"
+languageCode = "en-US"
+title = "Patrick Presto - Thesis 2018"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Patrick Presto"
+  description = "100 Days of currency is part of Patrick Presto's thesis for NYU's ITP in 2018. Follow along as he explores currency for what it is should the future be cryptocurrency."
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2018 Patrick Presto"
+
+  # Section - Content
+  [params.content]
+    name = "Patrick Presto"
+    tagline = "Thesis. Research. Currency."
+    bio = "This Spring 2018 is my thesis semester. Here I'll explore currencies that may be familiar and unfamiliar. Join me in discovering the small details of what we call 'money'. "
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/100days.png"
+      position = "center center"
+
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Social"
+
+      [[params.links.list1.link]]
+        text = "Twitter"
+        url = "https://twitter.com/letsPresto"
+
+      [[params.links.list1.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/100daysofcurrency/"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Follow"
+
+      [[params.links.list2.link]]
+        text = "Blog"
+        url = "https://letspresto.netlify.com/"
+
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
