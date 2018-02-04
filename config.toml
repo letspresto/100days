@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://example.org/"
+baseURL = "100daysofcurrency.netlify.com"
 languageCode = "en-US"
 title = "Patrick Presto - Thesis 2018"
 theme = "hugo-split-theme"
