@@ -57,7 +57,7 @@ publishDir = "docs"
 
       [[params.links.list2.link]]
         text = "Blog"
-        url = "https://letspresto.netlify.com/"
+        url = "http://thesis.letspresto.com/"
 
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
